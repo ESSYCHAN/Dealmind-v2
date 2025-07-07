@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production
+build/
+dist/
+
+# Environment files - IMPORTANT!
+.env
+.env.local
+*.env
+functions/.env
+web/.env
+mcp-server/.env
+ml/.env
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log
+.runtimeconfig.json
+
+# OS files
+.DS_Store
+*~
+
+# Python
+__pycache__/
+*.pyc
+venv/
